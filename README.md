@@ -17,11 +17,11 @@ This is a Bash script that downloads and runs the XMRig miner software adapted f
 
 `chmod +x ./start_mining.sh`
 
-`$ ./start_mining.sh <Solana address> <threads>`
+`./start_mining.sh <Solana address> <threads>`
 
 EXAMPLE:
 
-`$ ./start_mining.sh 6RX2ADdcNWZfaUfuGeHg86AYAoMuLF45Lbgfu3oNGh9i 2`
+`./start_mining.sh 6RX2ADdcNWZfaUfuGeHg86AYAoMuLF45Lbgfu3oNGh9i 2`
 
 ### the payout occurs automatically as soon as the threshold of 0.15 SOL is reached. To check your real-time balance of the mined SOL run `./check_stats.sh <SOLANA_ADDRESS>` (You need to have `curl` installed)
 
